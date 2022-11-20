@@ -1,0 +1,20 @@
+.timer{
+border: outset red 5px;
+border-radius: 25px;
+box-shadow: 0 0 0 3px #cc0000,
+0 0 0 4px #cc011c;
+background:-moz-linear-gradient(right bottom, #cc0000, #002102);
+background:-webkit-linear-gradient(right bottom, #cc0000, #002102);
+background:-o-linear-gradient(right bottom, #cc0000, #002102);
+color: #ccccff;
+}
+.timer:hover{
+border: outset red 5px;
+border-radius: 25px;
+box-shadow: 0 0 0 3px #cc0000,
+0 0 0 4px #cc011c;
+background:-moz-linear-gradient(left bottom, #cc0000, #002102);
+background:-webkit-linear-gradient(left bottom, #cc0000, #002102);
+background:-o-linear-gradient(left bottom, #cc0000, #002102);
+color: #ccccff;
+}

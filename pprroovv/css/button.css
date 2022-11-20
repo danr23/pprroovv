@@ -1,0 +1,88 @@
+@keyframes cutMov{
+0% 
+{
+	border: inset #00cffc 4px;
+	background:-moz-linear-gradient(58deg, #02ffff, #00c0fc);
+background:-webkit-linear-gradient(58deg, #02ffff, #00c0fc);
+background:-o-linear-gradient(58deg, #02ffff, #00c0fc);
+}
+10%{
+	border: inset #00cffc 4px;
+	background:-moz-linear-gradient(66deg, #02ffff, #00c0fc);
+background:-webkit-linear-gradient(66deg, #02ffff, #00c0fc);
+background:-o-linear-gradient(66deg, #02ffff, #00c0fc);
+}
+20%{
+	border: inset #00cffc 4px;
+	background:-moz-linear-gradient(76deg, #02ffff, #00c0fc);
+background:-webkit-linear-gradient(76deg, #02ffff, #00c0fc);
+background:-o-linear-gradient(76deg, #02ffff, #00c0fc);
+}
+30%{
+	border: inset #00cffc 4px;
+	background:-moz-linear-gradient(86deg, #02ffff, #00c0fc);
+background:-webkit-linear-gradient(86deg, #02ffff, #00c0fc);
+background:-o-linear-gradient(86deg, #02ffff, #00c0fc);
+}
+40%{
+	border: inset #00cffc 4px;
+	background:-moz-linear-gradient(96deg, #02ffff, #00c0fc);
+background:-webkit-linear-gradient(96deg, #02ffff, #00c0fc);
+background:-o-linear-gradient(96deg, #02ffff, #00c0fc);
+}
+50%{
+	border: inset #00cffc 4px;
+	background:-moz-linear-gradient(160deg, #02ffff, #00c0fc);
+background:-webkit-linear-gradient(160deg, #02ffff, #00c0fc);
+background:-o-linear-gradient(160deg, #02ffff, #00c0fc);
+}
+60%{
+	border: inset #00cffc 4px;
+	background:-moz-linear-gradient(190deg, #02ffff, #00c0fc);
+background:-webkit-linear-gradient(58deg, #02ffff, #00c0fc);
+background:-o-linear-gradient(58deg, #02ffff, #00c0fc);
+}
+70%{
+	border: inset #00cffc 4px;
+	background:-moz-linear-gradient(210deg, #02ffff, #00c0fc);
+background:-webkit-linear-gradient(210deg, #02ffff, #00c0fc);
+background:-o-linear-gradient(210deg, #02ffff, #00c0fc);
+}
+80%{
+	border: inset #00cffc 4px;
+	background:-moz-linear-gradient(230deg, #02ffff, #00c0fc);
+background:-webkit-linear-gradient(230deg, #02ffff, #00c0fc);
+background:-o-linear-gradient(230deg, #02ffff, #00c0fc);
+}
+90%{
+	border: inset #00cffc 4px;
+	background:-moz-linear-gradient(260deg, #02ffff, #00c0fc);
+background:-webkit-linear-gradient(260deg, #02ffff, #00c0fc);
+background:-o-linear-gradient(260deg, #02ffff, #00c0fc);
+}
+100%{
+	border: inset #00cffc 4px;
+	background:-moz-linear-gradient(360deg, #02ffff, #00c0fc);
+background:-webkit-linear-gradient(360deg, #02ffff, #00c0fc);
+background:-o-linear-gradient(360deg, #02ffff, #00c0fc);
+}
+}
+.cut{
+border: outset #00c0fc 4px;
+background:-moz-linear-gradient(58deg, #02ffff, #00c0fc);
+background:-webkit-linear-gradient(58deg, #02ffff, #00c0fc);
+background:-o-linear-gradient(58deg, #02ffff, #00c0fc);
+}
+.cut:hover{
+border: inset #00cffc 4px;
+background:-moz-linear-gradient(58deg, #02ffff, #00c0fc);
+background:-webkit-linear-gradient(58deg, #02ffff, #00c0fc);
+background:-o-linear-gradient(58deg, #02ffff, #00c0fc);
+animation: cutMov 0.7s linear;
+}
+.cut:active{
+border: outset #cffccf 4px;
+background:-moz-linear-gradient(58deg, #02ffff, #00c0fc);
+background:-webkit-linear-gradient(58deg, #02ffff, #00c0fc);
+background:-o-linear-gradient(58deg, #02ffff, #00c0fc);
+}
